@@ -1,0 +1,6 @@
+def checkString(s):
+    # check and print string is balanced or not
+    if s.count('(')!=s.count(')') or s.count('[')!=s.count(']') or s.count('{')!=s.count('}'):
+        print('not balanced')
+    else:
+        print('balanced')
